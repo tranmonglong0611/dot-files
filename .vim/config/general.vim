@@ -2,7 +2,6 @@ syntax on
 
 " Enable filetype plugins
 filetype indent plugin on 
-let g:auto_save = 1
 " if hidden is not set, TextEdit might fail.
 set hidden
 
@@ -78,4 +77,4 @@ set backspace=indent,eol,start
 "apperance
 set background=dark
 colorscheme gruvbox
-let g:airline_theme='gruvbox'
+"let g:airline_theme='gruvbox'

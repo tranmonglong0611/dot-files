@@ -16,6 +16,10 @@ vnoremap <Leader>p "*p
 vnoremap <Leader>Y "+y
 vnoremap <Leader>P "+p
 
+inoremap {<CR> {<CR>}<Esc>ko
+inoremap (<CR> (<CR>)<Esc>ko
+inoremap [<CR> [<CR>]<Esc>ko
+
 "easy-motion config
 map  / <Plug>(easymotion-sn)
 map  ;f <Plug>(easymotion-bd-f)
