@@ -32,8 +32,8 @@ set nobackup
 set nowb
 set noswapfile
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set smarttab            " Handle tabs more intelligently
 set autoindent
@@ -78,3 +78,9 @@ set backspace=indent,eol,start
 set background=dark
 colorscheme gruvbox
 "let g:airline_theme='gruvbox'
+
+
+"coc-vim config"
+" disable vim-go :GoDef short cut (gd)
+" this is handled by LanguageClient [LC]
+let g:go_def_mapping_enabled = 0
